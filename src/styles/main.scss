@@ -1,0 +1,14 @@
+@import 'modules/colors';
+@import 'modules/uppernav';
+@import 'modules/lowernav';
+// * {
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+// }
+
+body {
+  overflow: scroll;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f4f4f4;
+}
