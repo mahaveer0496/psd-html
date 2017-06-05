@@ -1,6 +1,9 @@
 @import 'modules/colors';
 @import 'modules/uppernav';
 @import 'modules/lowernav';
+@import 'modules/inlinesearch';
+@import 'modules/leftbody';
+@import 'modules/rightbody';
 // * {
 //   box-sizing: border-box;
 //   margin: 0;
@@ -11,4 +14,9 @@ body {
   overflow: scroll;
   font-family: 'Raleway', sans-serif;
   background-color: #f4f4f4;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
 }
