@@ -1,5 +1,28 @@
 .rightBody {
-  background-color: darken(pink, 25%);
+  background-color: white;
   width: 70%;
   padding: 20px 10px;
+}
+
+.doctor{
+  width: 100%;
+  height: 200px;
+  background-color: #f4f4f4;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  display: flex;
+  &__image{
+    width:20%;
+    margin-right: 10px;
+  }
+  &__about{
+    width: 50%;
+    margin-right: 10px;
+  }
+  &__review{
+    width: 30%;
+  }
+  &__about,&__review,&__image{
+    background-color: #f4f4f4;
+  }
 }

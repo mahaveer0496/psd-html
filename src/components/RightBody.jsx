@@ -1,8 +1,12 @@
 import React from 'react';
+import Doctor from './Doctor';
 
 const RightBody = () => (
   <div className="rightBody">
-    Righht
+    <Doctor />
+    <Doctor />
+    <Doctor />
+    <Doctor />
   </div>
 );
 
