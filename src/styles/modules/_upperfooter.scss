@@ -1,0 +1,23 @@
+.footer-upper {
+  background-color: #f4f4f4;
+}
+
+.upperfooter {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 2.3rem;
+    .heading {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    li {
+      font-size: 16px;
+    }
+  }
+}

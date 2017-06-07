@@ -1,0 +1,26 @@
+.lowerfooter {
+  color:darken(white, 10%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+  height: 50px;
+  &__left {
+    width: 50%;
+  }
+  &__right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    li{
+      margin-right: 25px;
+    }
+  }
+}
+
+.footer-lower {
+  background-color: darken(#f4f4f4, 55%);
+}
